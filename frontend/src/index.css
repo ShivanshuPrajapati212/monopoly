@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+.btn {
+    @apply text-white bg-red-700 hover:bg-red-800 cursor-pointer font-medium rounded-sm text-lg px-5 py-2.5 me-2 mb-2;
+}
+
+@source inline("bg-red-400 bg-orange-400 bg-black bg-yellow-300 bg-cyan-300 bg-pink-400 bg-green-500 bg-blue-800 bg-sky-400 bg-amber-900");
+
+
+body {
+    background-color: #012850;
+}
