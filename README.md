@@ -12,5 +12,8 @@ A Monopoly game made with Websockets, Node.js, React.js
 
 ![image](https://github.com/ShivanshuPrajapati212/monopoly/blob/main/Screenshot%202025-09-28%20112648.png)
 
+### Houses
+
+![image](https://github.com/ShivanshuPrajapati212/monopoly/blob/main/Screenshot%202025-09-28%20113015.png)
 
 ## By Shivanshu Prajapati
