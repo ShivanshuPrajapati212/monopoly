@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BUY, INIT_GAME, ROLL } from "../utils/messages";
 import Dice from "./Dice";
-import Sell from "./Sell.jsx"
+// import Sell from "./Sell.jsx"
 
 const Sidebar = ({ socket, started, board, players, self, roll, isRolling, setIsRolling }) => {
   const nonBuyable = [0, 2, 4, 7, 10, 17, 20, 22, 30, 33, 36, 38];
@@ -132,7 +132,7 @@ const Sidebar = ({ socket, started, board, players, self, roll, isRolling, setIs
       {started && (
         <div>
         <Dice socket={socket} roll={roll} isRolling={isRolling} setIsRolling={setIsRolling} />
-        <Sell/>
+        {/* <Sell/> */}
         </div>
       )}
     </div>
